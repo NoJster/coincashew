@@ -247,7 +247,7 @@ Here you'll grab the config.json, genesis.json, and topology.json files needed t
 
 ```bash
 mkdir $NODE_HOME
-cd $NODE_HOME
+cd $NODE_HOME/config/
 wget -N https://hydra.iohk.io/build/${NODE_BUILD_NUM}/download/1/${NODE_CONFIG}-byron-genesis.json
 wget -N https://hydra.iohk.io/build/${NODE_BUILD_NUM}/download/1/${NODE_CONFIG}-topology.json
 wget -N https://hydra.iohk.io/build/${NODE_BUILD_NUM}/download/1/${NODE_CONFIG}-shelley-genesis.json
